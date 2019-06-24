@@ -34,6 +34,7 @@ div.projects {
   background-size: cover;
   height: 20%;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 div.projects:hover {
@@ -54,6 +55,10 @@ div.projects:hover {
 
 #autoFlashes {
   background-image: url("autosite.png");
+}
+
+#boomba {
+  background-image: url("boomba.png");
 }
 
 /* Format headings inside of grid */
