@@ -117,6 +117,12 @@ hr.thickLine {
 hr.dashed {
   border: 1px dotted white;
 }
+
+/* Footer */
+footer {
+  position: fixed;
+}
+
 /* Animations */
 @keyframes fadeIn {
   from{
