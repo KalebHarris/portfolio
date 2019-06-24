@@ -1,0 +1,63 @@
+<!--  Title:          Main Page (index.html)
+      Author:         Kaleb Harris
+      Date Created:   6/19/19
+      Last Updated:   6/21/19
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kaleb Harris</title>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="assets/fc.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+  </head>
+
+  <body text="#d5dae2">
+    <script src="assets/script.js"></script>
+    <!-- Header - fixed with scroll -->
+    <header> <a href="" class="invisLink"> <h1>Kaleb Harris</h1></a> </header>
+
+    <!-- Headshot Image -->
+    <br />
+    <br />
+    <center><img src="assets/kaleb.jpg" class="headshot" width="20%"></center>
+    <br />
+    <br />
+    <!-- Columns format - 2 columns per row -->
+    <!-- Start Row 1 -->
+    <div class="container">
+      <!-- Column 1 -->
+      <!-- <a href="projects/index.html" class="invisLink"> -->
+        <div class="column" onmouseover="enlargeSite()" onmouseout="shrinkSite()" onclick="window.open('file:///Users/nextechcatapult/Documents/Intro%20Website/projects/index.html')">
+          <h2> My Projects </h2>
+          <p> I have worked on a few projects in the past and during my time as a Catapult.
+          Click here to view all of my active and past projects. </p>
+          <center><img src="assets/autosite.png" class="enlarge" id="site"></center>
+
+        </div>
+      <!-- </a> -->
+      <!-- Column 2 -->
+      <!-- <a href="clubs/index.html" class="invisLink"> -->
+        <div class="column" onmouseover="enlargeClubs()" onmouseout="shrinkClubs()" onclick="window.open('file:///Users/nextechcatapult/Documents/Intro%20Website/clubs/index.html')">
+          <h2>My Clubs</h2>
+          <ul>
+            <li>VEX Robotics</li>
+            <li>Business Professionals of America</li>
+            <li>Technology Student Association</li>
+          </ul>
+          <center><img src="assets/robotic.jpg" class="enlarge" id="robotics"></center>
+        </div>
+      <!-- </a> -->
+    </div>
+    <!-- End row 1 -->
+
+    <footer>
+      <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@paulgilmore_?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Paul Gilmore"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Homepage Photo By Paul Gilmore</span></a>
+    </footer>
+
+
+
+  </body>
+</html>

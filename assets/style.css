@@ -1,0 +1,102 @@
+/*    Title:          Main css Styling (style.css)
+      Author:         Kaleb Harris
+      Date Created:   6/19/19
+      Last Updated:   6/21/19
+*/
+
+
+/* Make the boxed for grid */
+* {
+  box-sizing: border-box;
+}
+
+/* Container for columns */
+.container {
+  display: table;
+  width: 100%;
+}
+/* Create columns in the grid */
+.column {
+  display: table-cell;
+  width: 50%;
+  padding: 16px;
+  border: 1px solid white;
+  animation: bounce 2s infinite;
+  animation-play-state: paused;
+  animation-fill-mode: none;
+}
+
+/* Format headings inside of grid */
+.column > h2 {
+  text-align: center;
+}
+
+/* Background and other full page formatting */
+body {
+  background-image: linear-gradient(
+    to bottom, transparent, rgb(33,36,48)
+  ), url("home.jpg");
+  background-attachment: scroll;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgb(33,36,48);
+  text: white;
+  margin: 0;
+  margin-top: 80px;
+  font-family: 'Roboto Slab', serif;
+}
+
+/* Top header */
+header {
+  width: 100%;
+  background-color: rgba(58, 54, 56, 0.5);
+  position: fixed;
+  text-align: center;
+  top: 0;
+  padding: 0;
+}
+
+.headshot {
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 0 5px rgba(58,54,56,0.5);
+  animation: fadeIn 1s;
+  opacity: 0.75;
+}
+
+/* Images inside grid that will enlarge on hover */
+.enlarge {
+  width: 75%;
+}
+
+.column:hover {
+  animation-play-state: running;
+}
+/* Remove default link formatting on grid */
+.invisLink {
+  text-decoration: none;
+  color: white;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from{
+    transform: translate(0, 100px);
+  }
+  60% {
+    transform: translate(0, -25px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+
+@keyframes bounce {
+  from{
+    transform: translate(0, 0px);
+  } 50% {
+    transform: translate(0, -15px);
+  } to {
+    transform: translate(0, 0px);
+  }
+}
