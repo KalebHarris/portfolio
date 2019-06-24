@@ -120,7 +120,7 @@ hr.dashed {
 
 /* Footer */
 footer {
-  position: fixed;
+  margin-top: 2em;
 }
 
 /* Animations */
