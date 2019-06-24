@@ -22,9 +22,6 @@
   padding: 16px;
   border: 1px solid white;
   border-radius: 0.5em;
-  animation: bounce 2s infinite;
-  animation-play-state: paused;
-  animation-fill-mode: none;
 }
 
 /* Format headings inside of grid */
@@ -71,7 +68,7 @@ header {
 }
 
 .column:hover {
-  animation-play-state: running;
+  animation: bounce 2s infinite;
 }
 
 /* Remove default link formatting on grid */
@@ -87,6 +84,9 @@ hr.thickLine {
   width: 90%;
 }
 
+hr.dashed {
+  border: 1px dotted white;
+}
 /* Animations */
 @keyframes fadeIn {
   from{
@@ -101,7 +101,7 @@ hr.thickLine {
 }
 
 @keyframes bounce {
-  from{
+  from {
     transform: translate(0, 0px);
   } 50% {
     transform: translate(0, -15px);
