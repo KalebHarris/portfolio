@@ -65,6 +65,10 @@ div.projects:hover {
   background-image: url("keyDetector.png");
 }
 
+#stay {
+  background-image: url("stayGame.png");
+}
+
 /* Format headings inside of grid */
 .column > h2 {
   text-align: center;
