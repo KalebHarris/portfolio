@@ -61,6 +61,10 @@ div.projects:hover {
   background-image: url("boomba.png");
 }
 
+#keyDetector {
+  background-image: url("keyDetector.png");
+}
+
 /* Format headings inside of grid */
 .column > h2 {
   text-align: center;
