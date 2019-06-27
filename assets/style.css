@@ -1,7 +1,7 @@
 /*    Title:          Main css Styling (style.css)
       Author:         Kaleb Harris
       Date Created:   6/19/19
-      Last Updated:   6/21/19
+      Last Updated:   6/27/19
 */
 
 
@@ -83,7 +83,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-color: rgb(33,36,48);
-  text: white;
+  color: white;
   margin: 0;
   margin-top: 80px;
   font-family: 'Roboto Slab', serif;
@@ -133,9 +133,33 @@ hr.dashed {
   border: 1px dotted white;
 }
 
+.aboutL {
+  text-align: right;
+  margin-right: 40em;
+  margin-left: 1em;
+}
+
+.aboutR {
+  text-align: left;
+  margin-left: 40em;
+  margin-right: 1em;
+}
+
+.aboutL > h1 {
+  text-align: center;
+}
+
+.aboutR > h1 {
+  text-align: center;
+}
+
 /* Footer */
 footer {
   margin-top: 2em;
+}
+
+.arrow {
+  animation: bounce 2s infinite;
 }
 
 /* Animations */
@@ -160,3 +184,6 @@ footer {
     transform: translate(0, 0px);
   }
 }
+body[data-aos-duration='4000'] [data-aos], [data-aos][data-aos][data-aos-duration='4000']{
+   transition-duration: 50000ms;
+ }
