@@ -10,6 +10,9 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 /* Container for columns */
 .container {
   display: table;
@@ -92,11 +95,12 @@ body {
 /* Top header */
 header {
   width: 100%;
-  background-color: rgba(58, 54, 56, 0.5);
+  background-color: rgba(58, 54, 56, 0.75);
   position: fixed;
   text-align: center;
   top: 0;
   padding: 0;
+  z-index: 999999;
 }
 
 .headshot {
@@ -104,7 +108,7 @@ header {
   border: 2px solid white;
   box-shadow: 0 0 0 5px rgba(58,54,56,0.5);
   animation: fadeIn 1s;
-  opacity: 0.75;
+  opacity: 0.9;
 }
 
 /* Images inside grid that will enlarge on hover */
@@ -137,12 +141,16 @@ hr.dashed {
   text-align: right;
   margin-right: 40em;
   margin-left: 1em;
+  background-color: rgba(58, 54, 56, 0.75);
+  padding: 1em;
 }
 
 .aboutR {
   text-align: left;
   margin-left: 40em;
   margin-right: 1em;
+  background-color: rgba(58, 54, 56, 0.75);
+  padding: 1em;
 }
 
 .aboutL > h1 {
@@ -160,6 +168,23 @@ footer {
 
 .arrow {
   animation: bounce 2s infinite;
+}
+
+.aboutBody {
+  background-image: url("indy.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.aboutImg {
+  border: 1px solid white;
+  border-radius: 5%;
+  width: 50%;
+  image-orientation: inherit;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Animations */
