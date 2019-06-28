@@ -27,6 +27,11 @@ html {
   border-radius: 0.5em;
 }
 
+.column2 {
+  display: table-cell;
+  width: 50%;
+}
+
 /* Project Quadrants */
 div.projects {
   display: table-cell;
@@ -174,6 +179,7 @@ footer {
   background-image: url("indy.jpg");
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   color: white;
   text-shadow: 2px 2px black;
 }
