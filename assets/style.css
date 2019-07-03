@@ -191,7 +191,7 @@ footer {
 .aboutImg {
   border: 1px solid white;
   border-radius: 5%;
-  width: 50%;
+  width: auto;
   image-orientation: inherit;
   display: block;
   margin-left: auto;
