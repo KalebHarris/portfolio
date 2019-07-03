@@ -151,6 +151,7 @@ hr.dashed {
   margin-left: 1em;
   background-color: rgba(58, 54, 56, 0.75);
   padding: 1em;
+  height: 550px;
 }
 
 .aboutR {
@@ -159,6 +160,7 @@ hr.dashed {
   margin-right: 1em;
   background-color: rgba(58, 54, 56, 0.75);
   padding: 1em;
+  height: 550px;
 }
 
 .aboutL > h1 {
