@@ -99,7 +99,10 @@ body {
 
 /* Top header */
 header {
+  animation: menuIn 2s;
   width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
   background-color: rgba(58, 54, 56, 0.75);
   position: fixed;
   text-align: center;
@@ -213,6 +216,14 @@ footer {
     transform: translate(0, -15px);
   } to {
     transform: translate(0, 0px);
+  }
+}
+
+@keyframes menuIn {
+  from {
+    width: 0%;
+  } to {
+    width: 100%;
   }
 }
 body[data-aos-duration='4000'] [data-aos], [data-aos][data-aos][data-aos-duration='4000']{
