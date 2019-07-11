@@ -152,6 +152,7 @@ hr.dashed {
   background-color: rgba(58, 54, 56, 0.75);
   padding: 1em;
   height: 550px;
+  overflow: auto;
 }
 
 .aboutR {
@@ -161,6 +162,7 @@ hr.dashed {
   background-color: rgba(58, 54, 56, 0.75);
   padding: 1em;
   height: 550px;
+  overflow: auto;
 }
 
 .aboutL > h1 {
@@ -187,11 +189,12 @@ footer {
   background-position: center;
   color: white;
   text-shadow: 2px 2px black;
+  overflow: auto;
 }
 .aboutImg {
   border: 1px solid white;
   border-radius: 5%;
-  width: auto;
+  width: 100px;
   image-orientation: inherit;
   display: block;
   margin-left: auto;
