@@ -147,7 +147,7 @@ hr.dashed {
 
 .aboutL {
   text-align: right;
-  margin-right: 40em;
+  margin-right: 45%;
   margin-left: 1em;
   background-color: rgba(58, 54, 56, 0.75);
   padding: 1em;
@@ -157,7 +157,7 @@ hr.dashed {
 
 .aboutR {
   text-align: left;
-  margin-left: 40em;
+  margin-left: 45%;
   margin-right: 1em;
   background-color: rgba(58, 54, 56, 0.75);
   padding: 1em;
