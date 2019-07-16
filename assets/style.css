@@ -183,10 +183,10 @@ footer {
 }
 
 .aboutBody {
-  /*background-image: url("indy.jpg");*/
+  /*background-image: url("indy.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center; */
   color: white;
   text-shadow: 2px 2px black;
   overflow: auto;
