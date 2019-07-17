@@ -77,6 +77,10 @@ div.projects:hover {
   background-image: url("stayGame.png");
 }
 
+#encrypt {
+  background-image: url("encryption.png");
+}
+
 /* Format headings inside of grid */
 .column > h2 {
   text-align: center;
